@@ -1,4 +1,8 @@
-# JubilantOctoWaddle
+# Jubilant Octo Waddle
+
+This repo is for playing around with Angular! It was created for the 12/19/17 Angular Hackathon.
+
+You should have [Node.js 8.9.3](https://nodejs.org/en/) before beginning.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
