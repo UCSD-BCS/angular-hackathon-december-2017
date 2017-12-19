@@ -3,6 +3,9 @@
 </nav>
 
 <div class="container main-container">
+  <p><button (click)="creatingNew = true" class="btn btn-primary">Create new</button></p>
+  <jaw-new-employee-form *ngIf="creatingNew"></jaw-new-employee-form>
+
   <h2>Choose an employee</h2>
   <ul>
     <li *ngFor="let employee of employees" (click)="setCurrent(employee)">

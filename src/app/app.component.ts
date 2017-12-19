@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
 
   employees: Employee[];
   currentEmployee: Employee;
+  creatingNew: boolean = false;
 
   ngOnInit() {
     this.employees = [
