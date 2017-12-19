@@ -8,9 +8,19 @@ import { Employee } from './employee/employee.model';
 })
 export class AppComponent implements OnInit {
   title = 'Jubilant Octo Waddle';
+
+  employees: Employee[];
   currentEmployee: Employee;
 
   ngOnInit() {
-    this.currentEmployee = new Employee(123, 'Frank', 'Castle', 'fcastle@ucsd.edu');
+    this.employees = [
+      new Employee(123, 'Frank', 'Castle', 'fcastle@ucsd.edu'),
+      new Employee(124, 'Diana', 'Prince', 'dprince@ucsd.edu'),
+      new Employee(125, 'Selina', 'Kyle', 'skyle@ucsd.edu')
+    ];
+  }
+
+  setCurrent(employee: Employee): void {
+    this.currentEmployee = employee;
   }
 }

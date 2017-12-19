@@ -3,5 +3,12 @@
 </nav>
 
 <div class="container main-container">
-  <jaw-employee-profile [employee]="currentEmployee"></jaw-employee-profile>
+  <h2>Choose an employee</h2>
+  <ul>
+    <li *ngFor="let employee of employees" (click)="setCurrent(employee)">
+      {{employee.firstName}} {{employee.lastName}}
+    </li>
+  </ul>
+
+  <jaw-employee-profile *ngIf="currentEmployee" [employee]="currentEmployee"></jaw-employee-profile>
 </div>
