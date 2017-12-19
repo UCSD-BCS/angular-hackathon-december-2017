@@ -19,8 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "jaw",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
+        "assets/jaw-primary.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
