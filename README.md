@@ -1,4 +1,4 @@
-# Jubilant Octo Waddle
+# Angular Hackathon December 2017 - Sample Project
 
 This repo is for playing around with Angular! It was created for the 12/19/17 Angular Hackathon.
 
